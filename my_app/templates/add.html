@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+     <div class="jumbotron container">
+
+        <h1>Add new item for tracking </h1>
+        <form action="" method="post">
+            {{form.hidden_tag()}}
+            <table>
+                <tr {% if form.tracking.errors %} class="error" {% endif %}>
+                    <td>Tracking ID</td>
+                    <td>{{ form.tracking (size=50) }}</td>
+                </tr>
+
+                <tr>
+                    <td>description here</td>
+                    <td>{{ form.description(size=50) }}</td>
+                </tr>
+
+                <tr class="Add item">
+                    <td></td>
+                    <td><button type="submit">Add item</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+     </div>
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
+
+{% block slider %}
+{% endblock %}

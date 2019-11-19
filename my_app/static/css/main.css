@@ -1,0 +1,80 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body, html {
+    height: 100%;
+    background-color: #ebf4fa;
+}
+
+#bottom-footer {
+    background-color:cadetblue;
+    color:white;
+    margin-top: 2rem;
+    padding-top: .3rem;
+}
+
+.container-table {
+    display: table;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.vertical-links>li {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.vertical-links>li>a {
+    color: white;
+    font-weight: 400;
+    margin-left: 1rem;
+    list-style-type:square;
+}
+
+
+.flashes ul {
+    margin: 0 0;
+    background: #FFD6A3;
+    color: #000;
+
+    list-style-type: none;
+    list-style: none;
+}
+
+/* flashes styling */
+
+.flashes ul{
+    background: #FFD6A3;
+    color: #000;
+}
+
+article.flashes {
+    margin-bottom: 1em;
+}
+
+.error, .error input {
+    color: red;
+}
+
+tr.error td ul {
+    margin-top: 0;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+
+
+
+
+
+
+
+

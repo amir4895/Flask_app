@@ -1,0 +1,20 @@
+### Dependencies for project			   		###
+###                                             ###
+### To install, run:                            ###
+###      $ pip install -r requirements.txt      ###
+### Or:                                         ###
+###    connect requirements file to pycharm     ###
+###    using external tools in settings         ###
+###################################################
+flask==1.1.1
+flask-wtf==0.14.2
+wtforms==2.2.1
+flask-sqlalchemy==2.4.1
+flask-script==2.0.6
+flask-login==0.4.1
+flask-moment==0.9.0
+flask-migrate==2.5.2
+asyncio==3.4.3
+py17track==2.2.4
+aiohttp==3.6.2
+requests==2.22.0

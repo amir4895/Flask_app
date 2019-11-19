@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <div class="container">
+        <h1>Items -  for {{ user.username }}</h1>
+        <a href="{{ url_for ('add')}}" class="btn btn-warning" role="button">Add item</a>
+        <a href="{{ url_for ('remove')}}" class="btn btn-danger" role="button">delete selected item</a>
+        <table class="table">
+              <thead>
+                    <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Tracking ID</th>
+                          <th scope="col">Description</th>
+                          <th scope="col">Status</th>
+                          <th scope="col">Activate Scraper</th>
+                          <th scope="col">Remove Item</th>
+                    </tr>
+              </thead>
+              <tbody>
+                    {% for item in user.items %}
+                         <tr>
+                                <th scope="row" class="item_obj">{{ item }}}</th>
+                                <td class="trck"> {{ item.tracking_id }} </td>
+                                <td class="desc">{{ item.description }}</td>
+                                <td class="trck_btn btn btn-warning" role="button">Track item</td>
+                                <td>{{ item.status }}</td>
+                                <td class="rmv_btn btn btn-danger" role="button">Remove item</td>
+                        </tr>
+                    {% else %}
+                        <li>This user has not added any bookmarks yet.</li>
+                    {% endfor %}
+
+              </tbody>
+        </table>
+    </div>
+
+{% endblock %}
+
+<script type="text/javascript" src="//s.trackingmore.com/plugins/v1/buttonCurrent.js"></script>

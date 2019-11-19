@@ -1,0 +1,17 @@
+<ul class="urls" >
+    {% for url in urls %}
+        <li>
+            <a class="header" herf=" {{ url.url }}">
+               <h3 class="description"> {{url.description| truncate(50) }}</h3>
+                <span class="url"> {{url.description| truncate(50) }} </span>
+            </a>
+
+            <div  class="info">
+                <br>
+                Addded by <a herf= "{{url_for('user',username=url.user.username) }}"></a>
+                {{ moment(url.date).fromNow() }} .
+            </div>
+
+        </li>
+    {% endfor %}
+</ul>
