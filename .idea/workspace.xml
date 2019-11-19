@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/my_app/views.py" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7283f4-142b-4c6f-b873-9a2657b05428" name="Default Changelist" comment="POC commit" />
+    <list default="true" id="6c7283f4-142b-4c6f-b873-9a2657b05428" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +107,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="43">
               <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
               <folding>
                 <element signature="e#0#6#0" expanded="true" />
@@ -160,6 +162,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -439,30 +446,38 @@
       <updated>1573072886077</updated>
       <workItem from="1573072888298" duration="34839000" />
       <workItem from="1573636226685" duration="57306000" />
-      <workItem from="1574119475553" duration="4835000" />
+      <workItem from="1574119475553" duration="5093000" />
     </task>
+    <task id="LOCAL-00001" summary="POC commit">
+      <created>1574124915306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574124915306</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96980000" />
+    <option name="totallyTimeSpent" value="97238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="745" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49928468" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.60649544" weight="0.32312405" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.66540784" visible="true" weight="0.48698315" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.66540784" weight="0.48698315" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49848944" weight="0.32924962" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49773413" visible="true" weight="0.32924962" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.33459213" side_tool="true" visible="true" weight="0.48698315" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022659" side_tool="true" visible="true" weight="0.32924962" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7703928" weight="0.44104135" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8882175" weight="0.39203677" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -474,6 +489,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="POC commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="POC commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -519,7 +538,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flask_app$manger_runserver.coverage" NAME="manger-runserver Coverage Results" MODIFIED="1574124029777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/Flask_app$manger_runserver.coverage" NAME="manger-runserver Coverage Results" MODIFIED="1574124934864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/Flask_app$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1573434427662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyApp" />
     <SUITE FILE_PATH="coverage/Flask_app$manger_initdb.coverage" NAME="manger-initdb Coverage Results" MODIFIED="1574077230652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/Flask_app$manger_dropdb.coverage" NAME="manger-dropdb Coverage Results" MODIFIED="1574077221189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
@@ -1020,7 +1039,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
+        <state relative-caret-position="43">
           <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
           <folding>
             <element signature="e#0#6#0" expanded="true" />

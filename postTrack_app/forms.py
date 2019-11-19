@@ -2,7 +2,7 @@ from flask_wtf import FlaskForm
 from wtforms.fields import StringField, PasswordField, BooleanField, SubmitField
 from wtforms.fields.html5 import URLField
 from wtforms.validators import DataRequired, url, EqualTo, Regexp, Length, Email, ValidationError
-from my_app.models import User
+from postTrack_app.models import User
 
 
 class BookmarkForm(FlaskForm):

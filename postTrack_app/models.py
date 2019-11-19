@@ -3,7 +3,7 @@ from sqlalchemy import desc
 from flask_login import UserMixin
 from enum import Enum
 from werkzeug.security import check_password_hash, generate_password_hash
-from my_app import db
+from postTrack_app import db
 
 
 

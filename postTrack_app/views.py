@@ -1,13 +1,13 @@
 import json
-from my_app.tracker import Track
+from postTrack_app.tracker import Track
 
-from my_app import db, app, login_manager
+from postTrack_app import db, app, login_manager
 from flask import render_template, url_for, redirect, flash, request
 
-from my_app.forms import BookmarkForm, ItemForm
-from my_app import models
+from postTrack_app.forms import BookmarkForm, ItemForm
+from postTrack_app import models
 from flask_login import login_required, login_user, logout_user, current_user
-from my_app.forms import LoginForm, SignupForm
+from postTrack_app.forms import LoginForm, SignupForm
 
 
 global_count = 0

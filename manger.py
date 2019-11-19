@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
-from my_app import app, db
-from my_app.models import User, URL, Item
+from postTrack_app import app, db
+from postTrack_app.models import User, URL, Item
 from flask_script import Manager, prompt_bool
 from flask_migrate import Migrate, MigrateCommand
 
