@@ -16,5 +16,5 @@ flask-moment==0.9.0
 flask-migrate==2.5.2
 asyncio==3.4.3
 py17track==2.2.4
-aiohttp==3.6.2
+aiohttp==3.7.4
 requests==2.22.0
